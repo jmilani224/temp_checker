@@ -40,13 +40,6 @@ const getWeather = () => {
         p.innerHTML = 'Please enter a valid zip code';
     }
 
-};
-
-/*const getWeatherEnter = () => {
-        if (document.keyCode === 13) {
-          getWeather;
-        }
-      };*/
 
 
 
