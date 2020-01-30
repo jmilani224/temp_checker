@@ -41,7 +41,7 @@ const getWeather = () => {
     }
 
 
-
+};
 
 const goBack = () => {
     
@@ -53,6 +53,5 @@ const goBack = () => {
 
 goButton.addEventListener("click", getWeather);
 backButton.addEventListener("click", goBack);
-//document.addEventListener("keyup", getWeatherEnter);
 
 
