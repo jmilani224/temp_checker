@@ -1,6 +1,7 @@
 
 
 const goButton = document.getElementById('go'),
+      form = document.querySelector("#main-form"),
       backButton = document.getElementById('back'),
       tempContainer = document.getElementsByClassName('temp')[0],
       inputContainer = document.getElementsByClassName('local-zip')[0],
@@ -52,6 +53,11 @@ const goBack = () => {
 };
 
 goButton.addEventListener("click", getWeather);
+
+form.addEventListener("submit", function (e) {
+    e.preventDefault();
+});
+
 backButton.addEventListener("click", goBack);
 
 
